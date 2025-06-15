@@ -1,0 +1,8 @@
+kadane's algo
+
+int c=0,m=INT_MIN;
+    for(int x:a){
+        c=max(x,c+x);
+        m=max(m,c);
+    }
+
