@@ -1,4 +1,4 @@
-kadane's algo
+1.kadane's algo
 
 int c=0,m=INT_MIN;
     for(int x:a){
@@ -6,3 +6,6 @@ int c=0,m=INT_MIN;
         m=max(m,c);
     }
 
+2.Mo's Algo
+used when ther is multiple range queries
+typically sum/frequency/count on array
